@@ -1,4 +1,4 @@
-# Containerized Python script deployed on DockerHub 
+## Customized Docker container that deploys a simple Python script
 
 
 The following project deploys a simple Python script from a customized Docker container. The resulting image is pushed to DockerHub and can be pulled down and run on a cloud platform shell: AWS Cloud9 or Google Cloud Shell. CircleCI is setup for continous integration.
