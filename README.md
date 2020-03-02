@@ -9,7 +9,7 @@ The docker image can be found [here](https://hub.docker.com/repository/docker/ab
 
 ### Guide to use the container
 * [Download and install Docker](https://docs.docker.com/docker-for-mac/install/) to your local machine to execute the container.
-* (Optional) Download and sign up to either [AWS Cloud9](https://aws.amazon.com/console/) or [Google Cloud Shell](https://cloud.google.com/shell). This step is optional since the Docker image could be deployed on your local Terminal as well.
+* (Optional) Download and sign up to either [AWS Cloud9](https://aws.amazon.com/console/) or [Google Cloud Shell](https://cloud.google.com/shell). This step is optional since the Docker image could be deployed on your local Terminal.
 * To pull the image to your local machine, run `docker pull abbarcenasj/hello_world` on the desired shell.
 * Once all the files have been dragged to your machine, run the command `docker run -it abbarcenasj/hello_world bash` to create the environment needed to run the Python script.
 * Finally, to deploy the Python script run `python app.py`.
